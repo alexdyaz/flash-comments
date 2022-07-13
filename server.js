@@ -5,10 +5,10 @@ var bodyParser = require('body-parser');
 var Pusher = require('pusher');
 
 var pusher = new Pusher({
-  appId: '<your-app-id>',
-  key: '<your-api-key>',
-  secret: '<your-app-secret>',
-  cluster: 'ap2',
+  appId: '1429551',
+  key: '64f7e20e52a20c46d3a2',
+  secret: '44e8df11da7a693eb6a3',
+  cluster: 'eu',
   encrypted: true
 });
 
@@ -39,5 +39,5 @@ app.use(function(req, res, next) {
 module.exports = app;
 
 app.listen(9000, function(){
-  console.log('Example app listening on port 9000!')
+  console.log('Server on http://localhost:9000/')
 });

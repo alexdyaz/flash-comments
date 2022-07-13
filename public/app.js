@@ -5,8 +5,8 @@
 
     var serverUrl = "/",
         comments = [],
-        pusher = new Pusher('<your-api-key>', {
-          cluster: 'ap2',
+        pusher = new Pusher('64f7e20e52a20c46d3a2', {
+          cluster: 'eu',
           encrypted: true
         }),
         // Subscribing to the 'flash-comments' Channel

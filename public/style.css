@@ -3,10 +3,11 @@ body{
     padding:0;
     overflow: hidden;
     font-family: Raleway;
+    background: #2071C8;
 }
 
 header{
-    background: #2b303b;
+    background: #0471F7;
     height: 50px;
     width:100%;
     display: flex;
@@ -293,4 +294,10 @@ section{
     opacity:1;
     -ms-transform:  translate(0px,0px)  ;
   }
+}
+
+div {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
 }
