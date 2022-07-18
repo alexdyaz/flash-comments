@@ -38,6 +38,6 @@ app.use(function(req, res, next) {
 
 module.exports = app;
 
-app.listen(9000, function(){
-  console.log('Server on http://localhost:9000/')
+app.listen(80, function(){
+  console.log('Server on http://localhost:80/')
 });
