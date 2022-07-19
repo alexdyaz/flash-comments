@@ -4,8 +4,8 @@
   "description": "Flash Comments - An Open Source Vanilla JS commenting library client side & server side components",
   "main": "server.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
     "start": "node server.js"
   },
   "author": "mAppMechanic (Rahat Khanna)",
