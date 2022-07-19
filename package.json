@@ -4,7 +4,7 @@
   "description": "Flash Comments - An Open Source Vanilla JS commenting library client side & server side components",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "mAppMechanic (Rahat Khanna)",
