@@ -4,7 +4,7 @@
   "description": "Flash Comments - An Open Source Vanilla JS commenting library client side & server side components",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "build": "webpack --config webpack.config.js",
     "start": "node server.js"
   },
